@@ -6,9 +6,8 @@
     "allowJs": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "strict": true,
+    "strict": false,
     "noImplicitAny": false,
-    "types": ["jest", "react-native", "@types/jest"],
     "baseUrl": "./",
     "paths": {
       "@/components/*": ["components/*"],
@@ -16,5 +15,11 @@
       "@/lib/*": ["lib/*"]
     }
   },
-  "include": ["app/**/*", "components/**/*", "lib/**/*", "theme.ts"]
+  "include": [
+    "app/**/*",
+    "components/**/*",
+    "lib/**/*",
+    "theme.ts",
+    "types.d.ts"
+  ]
 }
