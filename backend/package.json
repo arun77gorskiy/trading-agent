@@ -2,6 +2,7 @@
   "name": "paydmap-backend",
   "version": "1.0.0",
   "description": "Backend server for the PaydMap project. Provides a production‑grade Express API backed by Supabase.",
+  
   "main": "src/server.ts",
   "scripts": {
     "dev": "ts-node-dev src/server.ts",
@@ -19,6 +20,7 @@
     "@types/express": "^4.17.13",
     "@types/node": "^18.16.3",
     "ts-node-dev": "^2.0.0",
+        "@types/cors": "^2.8.17",
     "typescript": "^5.4.4"
   }
 }
