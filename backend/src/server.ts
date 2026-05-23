@@ -4,7 +4,7 @@ import dotenv from 'dotenv';
 import routes from './routes';
 import { errorHandler } from './lib/errorHandler';
 
-// Load environment variables from .env file when present.
+// Load environment variab./ from .env file when present.
 dotenv.config();
 
 // Initialise Express application.
