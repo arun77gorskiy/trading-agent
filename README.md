@@ -6,6 +6,9 @@ and beyond.  This repository contains both the backend (Express API) and
 frontend (Expo React Native app) components for the PaydMap MVP.  The
 architecture is designed to be scalable and maintainable, with a clean
 folder structure, TypeScript throughout, and environment‑driven
+
+> **Important:** This repository currently uses temporary TypeScript stubs because network restrictions prevent installing packages from npm. These stubs give modules like `express`, `@supabase/supabase-js`, `react-native`, etc. an `any` type so that the code can compile. When npm access is restored, remove the stubs, install the real packages and their type definitions, and enable strict TypeScript mode.
+
 configuration.
 
 ## Project structure
